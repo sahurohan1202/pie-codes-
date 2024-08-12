@@ -1,0 +1,418 @@
+/* Global css start */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 1280px;
+  margin: 0 auto;
+
+}
+
+/* Header section css start  */
+
+.main-header .header-section .logo img {
+  height: 70px
+}
+
+.main-header {
+  top: 0;
+  position: sticky;
+  background: #ffffff;
+}
+
+.header-section {
+  display: flex;
+}
+
+.header-menu {
+  align-content: center;
+  font-size: 15px;
+  font-style: inherit;
+  font-weight: 600;
+}
+
+.header-menu ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  position: relative;
+  left: 730px;
+  font-size: larger;
+  font-family: math;
+}
+
+.header-menu ul li a {
+  text-decoration: none;
+  color: #000;
+  font: 400px;
+
+}
+
+/* Hero banner section  css start */
+
+.hero-banner {
+  background-image: url(./images/hero.jpg);
+  background-size: cover;
+  height: 90vh;
+  width: 100%;
+}
+
+.hero-banner .banner-content {
+  color: #ffffff;
+  text-align: center;
+  padding: 225px;
+  font-size: 20px;
+}
+
+.hero-banner .banner-content h2 {
+  font-size: 60px;
+  line-height: 49px;
+  font-family: math;
+  padding-bottom: 40px;
+}
+
+.hero-banner .banner-content p {
+  line-height: 100%;
+  font-family: math;
+  padding-bottom: 20px;
+  font-size: 24px;
+
+}
+
+.hero-button a {
+  background-color: #eb7c1c;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px 37px;
+  display: block;
+  width: fit-content;
+  margin: auto;
+  font-size: 20px;
+}
+
+/* Services section css start */
+.services {
+  background-color: #edf7f0;
+}
+
+.service-tittle {
+  display: ruby-text;
+}
+
+.service-tittle h2 {
+  padding-top: 35px;
+  font-weight: 600;
+  font-size: 40px;
+  text-align: center;
+  color: #162839;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-family: sans-serif;
+}
+
+.services-box ul li img {
+  width: 130px;
+  list-style: none;
+}
+
+.services-box ul li {
+  font-size: 20px;
+  list-style: none;
+  display: inline-block;
+  margin-left: 68px;
+  margin-bottom: 30px;
+  box-shadow: 0px 0px 1px 0px #081b38;
+  background-color: #FAFAFA;
+  padding: 20px 25px;
+}
+
+.services-box ul li:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+
+.services-content .services-box {
+  width: 60%;
+  display: inline-block;
+}
+
+.services-box li h5 {
+  text-align-last: center;
+}
+
+.services-description {
+  display: inline-block;
+  width: 35%;
+  vertical-align: top;
+  margin-left: 60px;
+  font-size: xx-large;
+  font-family: sans-serif;
+}
+
+.services-description ul {
+  font-size: 20px;
+  line-height: 58px;
+  color: #818182;
+  font-family: sans-serif;
+}
+
+.services-description h2 {
+  font-size: 28px;
+  color: #162839;
+}
+
+.services-description li::marker {
+  color: #f55b02;
+  font-size: 36px;
+  opacity: 3px;
+}
+
+/* process section css start */
+
+.process-box ul li img {
+  width: 110px;
+  list-style: none;
+}
+
+.process .process-tittle {
+  text-align: center;
+  font-size: 25px;
+  line-height: 28px;
+}
+
+.process-tittle h2 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-family: sans-serif;
+  color: #162839;
+}
+
+.process-tittle p {
+  color: #818182;
+  margin-bottom: 50px;
+  font-family: sans-serif;
+}
+
+.process-box ul {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+}
+
+.process-box {
+  margin-left: 100px;
+}
+
+.process-box #img2 {
+  margin-top: 70px;
+}
+
+.process-box #img4 {
+  margin-top: 70px;
+}
+
+.process-box #img6 {
+  margin-top: 70px;
+}
+
+.process-box h5 {
+  text-align: center;
+  font-size: 17px;
+  font-weight: 700;
+  color: #162839;
+  font-family: sans-serif;
+}
+
+/* Why choose us section css start */
+
+.choose-us {
+  margin-bottom: 20px;
+  background-color: #edf7f0;
+}
+
+.choose img {
+  width: 90px;
+}
+
+.choose-us .tittle {
+  text-align: center;
+}
+
+.choose-us .tittle h2 {
+  font-size: 43px;
+  margin-top: 40px;
+  font-family: sans-serif;
+  color: #162839;
+  margin-bottom: -30px;
+  padding: 70px;
+  line-height: 1px;
+}
+
+.choose-us .tittle p {
+  color: #818182;
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-bottom: 30px;
+}
+
+.choose-content .main-img {
+  width: 50%;
+}
+
+.choose-content .main-img img {
+  height: auto;
+  max-width: 100%;
+}
+
+.choose-content {
+  display: flex;
+}
+
+.choose {
+  width: 50%;
+}
+
+.img ul {
+  display: ruby-text;
+  width: 87%;
+  line-height: 38px;
+  font-size: 20px;
+  font-family: sans-serif;
+  color: #162839;
+  margin-left: 20px;
+  text-align: -webkit-center;
+}
+
+.img ul li {
+  display: inline-block;
+  margin-left: 85px;
+  margin-bottom: 30px;
+}
+
+
+/* lets create section css start */
+
+.create-together .tittle {
+  display: inline-block;
+  vertical-align: top;
+  margin: 30px;
+  text-align: -webkit-auto;
+  font-size: 24px;
+  font-family: sans-serif;
+}
+
+.create-together .create img {
+  width: 16%;
+}
+
+.create-together .button {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 80px;
+  margin-left: 20px;
+  background-color: #eb7c1c;
+  text-decoration: none;
+  border-radius: 7px;
+  padding: 10px 40px;
+  font-size: 20px;
+}
+
+.create-together .button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.create-together .button:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.create-together .tittle h2 {
+  line-height: 70px;
+}
+
+/* Footer section css start */
+
+.footer {
+  background-color: #edf7f0;
+}
+
+.footer .footer-content {
+  padding: 25px 0px 25px;
+  display: inline-flex;
+}
+
+.footer .footer-content .logo {
+  width: 60%;
+}
+
+.footer .footer-content .content {
+  width: 35%;
+}
+
+.footer .footer-content .content ul {
+  font-size: 25px;
+  list-style-type: none;
+  line-height: 38px;
+  font-family: sans-serif;
+}
+
+.footer-content .social img {
+  width: 8%;
+}
+
+.footer-content .social {
+  font-size: 25px
+}
+
+.logo h5 {
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: 100;
+  color: #2a2b3a;
+}
+
+.footer .footer-content .logo {
+  width: 33%;
+}
+
+.footer .footer-content .content {
+  width: 30%;
+}
+
+.footer-content .social {
+  width: 33%;
+}
+
+.footer-content .social h4 {
+  margin-bottom: 20px;
+}
+
+.footer-content .social #mail {
+  margin-top: 15px;
+  font-family: sans-serif;
+}
+
+.footer-content .social #mail-1 {
+  text-decoration: auto;
+  color: #2a2b3a;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+.content ul #menu {
+  color: #2a2b3a;
+  text-decoration: none;
+}
+
+.content ul #menu:hover {
+  color:#b6b8b6;
+}
+
+.social #mail-1:hover {
+  color: #eb7c1c;
+}
